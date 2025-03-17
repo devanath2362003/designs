@@ -1,0 +1,104 @@
+/* 
+.c1{
+    background-color: red;
+    height: 200px;
+}
+.c2{
+    background-color: rgb(0, 255, 213);
+    height: 200px;
+}
+.c3{
+    background-color: rgb(106, 0, 255);
+    height: 200px;
+}
+.c4{
+    background-color: rgb(225, 255, 0);
+    height: 200px;
+} */
+
+
+.page{
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    justify-content: space-between;
+    /* justify-content: space-around; */
+    padding-left: 50px;
+}
+
+.menu{
+    width: 500px;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+
+}
+
+li{
+    list-style-type: none;
+}
+
+.bm{
+    display: none;
+}
+.lp, .lm{
+    display: none;
+}
+.lt{
+    display: block;
+}
+
+/* -----------------------media query-------------------- */
+
+
+/* ----This is for mobile-------- */
+
+@media screen and (max-width: 600px) {
+    .page{
+        background-color: brown;
+    }
+    .menu{
+        display: none;
+    }
+    .bm{
+        display: block;
+    }
+
+    .lp, .lt{
+        display: none;
+    }
+    .lm{
+        display: block;
+    }
+  }
+
+
+
+  
+/* ----This is for pc-------- */
+
+@media screen and (min-width: 1000px) {
+
+    .page{
+        background-color: blue;
+    }
+    .menu{
+        width: 700px;
+        /* border: 1px solid red; */
+       
+    color: white;
+    
+    
+    }
+    .lm, .lt{
+        display: none;
+    }
+    .lp{
+        display: block;
+    }
+
+}

@@ -1,0 +1,37 @@
+.c1{
+  background-color:rgb(224, 187, 187);
+  height: 400px;
+  border: 1px solid black;
+  font-size: 30px; 
+  /* border: hidden; */
+  padding: 10px;
+
+
+}
+.a1{
+  border: 1px solid black;
+  margin: 30px;
+  /* border:hidden; */
+
+}
+.a2{
+  display: flex;
+  padding: 20px;
+  /* column-gap:50px; */
+  /* gap: 30px; */
+  
+
+
+  
+
+}
+
+.cc1{
+
+  background-color: blueviolet;
+  height: 300px;
+  border-radius: 20px;
+
+
+}
+

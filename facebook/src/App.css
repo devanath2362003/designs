@@ -1,0 +1,137 @@
+/* *{
+    margin: 0;
+    
+} */
+.a{
+    border: 2px solid black;
+    
+}
+.b{
+    height: 60px;
+    background-color: rgba(210, 105, 30, 0.614);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: larger;
+    font-family:'Times New Roman', Times, serif;
+    color: aliceblue;
+    padding-right:400px;
+    
+}
+.c{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 1100px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+.d{
+    color: rgba(210, 105, 30, 0.621);
+}
+.e{
+    width: 250px;
+    height: 400px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.f{
+    width: 250px;
+    height: 500px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.g{
+    width: 250px;
+    height: 500px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.h{
+    width: 250px;
+    height: 500px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.i{
+    width: 250px;
+    height: 500px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.j{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px;
+}
+li{
+    list-style: none;
+}
+.ei{
+    margin-top: 10%;
+    width: 80%;
+    margin-right:10%;
+     margin-left: 10%;
+     height: 50%;
+ 
+     border: 2px hidden black;
+     
+    
+
+     
+
+}
+.eid{
+    margin-top: 10%;
+    width: 80%;
+    margin-right:10%;
+     margin-left: 10%;
+     height: 50%;
+     overflow: hidden;
+}
+#ab{
+
+}
+.ei:hover{
+    transform:scale(1.2) ;
+    transition: transform 0.6s ease-in;
+}
+.b1{
+    height: 40px;
+    border-radius: 20px;
+    width: 60%;
+    margin-left: 20%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+/* .z1{
+    width: 80%;
+    height: 50%;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    
+} */
+
+.b1:hover{
+    transform:scale(1.1) ;
+    transition:   background-color 0.4s ease;
+    background-color:skyblue;
+
+}
+/* #dropdown-basic{
+    background-color: rgb(169, 63, 28);
+}
+#dropdown-basic:hover{
+    transform:scale(1.1) ;
+    transition:  transform 0.6s ease;
+} */
+
+
+
+.l1 .dropdown-toggle{
+    background-color: red;
+}
+.accordion-item{
+    margin-bottom: 80px;
+}
